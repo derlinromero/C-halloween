@@ -49,5 +49,10 @@ namespace ParcialHalloween
                 MessageBox.Show("Error al registrar el usuario","Error en registro");
             }
         }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

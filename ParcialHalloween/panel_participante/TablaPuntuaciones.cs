@@ -35,15 +35,15 @@ namespace ParcialHalloween.panel_participante
                 tercerPuesto = ranking[2];
             }
 
-            label1.Text = primerPuesto.nombre + " - " + primerPuesto.disfraz;
+            label1.Text = primerPuesto.nombre + " - " + primerPuesto.disfraz + " | " + primerPuesto.puntos + " punto/s";
             pcb1.Image = Image.FromFile(primerPuesto.foto);
 
-            label2.Text = segundoPuesto.nombre + " - " + segundoPuesto.disfraz;
+            label2.Text = segundoPuesto.nombre + " - " + segundoPuesto.disfraz + " | " + segundoPuesto.puntos + " punto/s";
             pcb2.Image = Image.FromFile(segundoPuesto.foto);
 
             if (ranking.Count > 2)
             {
-                label3.Text = tercerPuesto.nombre + " - " + tercerPuesto.disfraz;
+                label3.Text = tercerPuesto.nombre + " - " + tercerPuesto.disfraz + " | " + tercerPuesto.puntos + " punto/s";
                 pcb3.Image = Image.FromFile(tercerPuesto.foto);
             }
             else

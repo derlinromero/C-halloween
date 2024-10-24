@@ -99,6 +99,39 @@ namespace ParcialHalloween.Datos
                 return false;
             }
         }
+
+        public bool AgregarPuntuacion(int participanteID, int votanteID, int puntos) {
+            int filas;
+            try {
+                con.Open();
+                cmd.CommandType = CommandType.Text;
+                cmd.CommandText = "INSERT INTO Puntuaciones (puntos, usuarioID, usuarioCalificadorID) VALUES (@puntos, @participanteID, @votanteID);";
+
+                cmd.Parameters.Clear();
+                cmd.Parameters.Add(new SqlParameter("@puntos", puntos));
+                cmd.Parameters.Add(new SqlParameter("@participanteID", participanteID));
+                cmd.Parameters.Add(new SqlParameter("@votanteID", votanteID));
+
+                filas= cmd.ExecuteNonQuery();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al agregar puntuacion");
+            }
+            finally
+            {
+                con.Close();
+            }
+
+            if (filas > 0)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
         #endregion
 
         #region READS

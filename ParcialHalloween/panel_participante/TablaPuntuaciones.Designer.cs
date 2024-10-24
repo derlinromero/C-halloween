@@ -50,26 +50,26 @@
             // label1
             // 
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(360, 259);
+            this.label1.Location = new System.Drawing.Point(343, 259);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(121, 60);
+            this.label1.Size = new System.Drawing.Size(150, 60);
             this.label1.TabIndex = 1;
             // 
             // label2
             // 
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(175, 334);
+            this.label2.Location = new System.Drawing.Point(162, 334);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(121, 60);
+            this.label2.Size = new System.Drawing.Size(150, 60);
             this.label2.TabIndex = 2;
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label3
             // 
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(517, 397);
+            this.label3.Location = new System.Drawing.Point(500, 397);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(121, 60);
+            this.label3.Size = new System.Drawing.Size(150, 60);
             this.label3.TabIndex = 3;
             // 
             // pcbSegundo

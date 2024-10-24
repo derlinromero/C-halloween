@@ -20,10 +20,9 @@ namespace ParcialHalloween.panel_participante
         public AgregarPuntuacion(int id)
         {
             InitializeComponent();
+            this.id = id;
             db = new Db();
             CargarParticipantes();
-            this.id = id;
-            ;
         }
 
         private void CargarParticipantes()
@@ -59,16 +58,43 @@ namespace ParcialHalloween.panel_participante
 
         private void btnCalificar_Click(object sender, EventArgs e)
         {
-            if (lsbParticipantes.SelectedIndex != -1) {
+            if (lsbParticipantes.SelectedIndex != -1)
+            {
                 string partiSelec = lsbParticipantes.SelectedItem.ToString();
 
                 var listaParticipantes = db.ObtenerParticipante();
                 Participante participanteSeleccionado = null;
 
-                foreach (var participante in listaParticipantes) {
+                foreach (var participante in listaParticipantes)
+                {
+                    if (participante.nombre == partiSelec)
+                    {
+                        participanteSeleccionado = participante;
+                        break;
+                    }
+                }
 
+                int puntos = Convert.ToInt32(txtPuntos.Value);
+
+                bool resultado = db.AgregarPuntuacion(participanteSeleccionado.id, id, puntos);
+
+                if (resultado)
+                {
+                    MessageBox.Show("Puntuación guardada con éxito.", "Éxito");
+                }
+                else
+                {
+                    MessageBox.Show("Error al guardar la puntuación.", "Error");
                 }
             }
+            else {
+                MessageBox.Show("Por favor, selecciona un participante.", "Advertencia");
+            }
+        }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
