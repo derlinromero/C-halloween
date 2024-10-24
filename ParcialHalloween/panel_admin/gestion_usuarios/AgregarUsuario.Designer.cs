@@ -44,6 +44,7 @@
             this.txtNombre = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.ofdFoto = new System.Windows.Forms.OpenFileDialog();
+            this.btnCancelar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pcbFoto)).BeginInit();
             this.SuspendLayout();
             // 
@@ -53,7 +54,7 @@
             this.btnRegistrarse.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRegistrarse.Location = new System.Drawing.Point(411, 370);
             this.btnRegistrarse.Name = "btnRegistrarse";
-            this.btnRegistrarse.Size = new System.Drawing.Size(211, 51);
+            this.btnRegistrarse.Size = new System.Drawing.Size(147, 51);
             this.btnRegistrarse.TabIndex = 36;
             this.btnRegistrarse.Text = "Agregar";
             this.btnRegistrarse.UseVisualStyleBackColor = false;
@@ -201,12 +202,25 @@
             // 
             this.ofdFoto.FileName = "openFileDialog1";
             // 
+            // btnCancelar
+            // 
+            this.btnCancelar.BackColor = System.Drawing.Color.Yellow;
+            this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelar.Location = new System.Drawing.Point(564, 370);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(211, 51);
+            this.btnCancelar.TabIndex = 37;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.UseVisualStyleBackColor = false;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
+            // 
             // AgregarUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnRegistrarse);
             this.Controls.Add(this.pcbFoto);
             this.Controls.Add(this.btnImagen);
@@ -248,5 +262,6 @@
         private System.Windows.Forms.TextBox txtNombre;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.OpenFileDialog ofdFoto;
+        private System.Windows.Forms.Button btnCancelar;
     }
 }

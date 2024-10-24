@@ -35,6 +35,7 @@
             this.txtPuntos = new System.Windows.Forms.NumericUpDown();
             this.label2 = new System.Windows.Forms.Label();
             this.btnCalificar = new System.Windows.Forms.Button();
+            this.btnCancelar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pcbFoto)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.txtPuntos)).BeginInit();
             this.SuspendLayout();
@@ -115,7 +116,7 @@
             // 
             this.btnCalificar.BackColor = System.Drawing.Color.DarkSalmon;
             this.btnCalificar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCalificar.Location = new System.Drawing.Point(591, 332);
+            this.btnCalificar.Location = new System.Drawing.Point(591, 294);
             this.btnCalificar.Name = "btnCalificar";
             this.btnCalificar.Size = new System.Drawing.Size(180, 59);
             this.btnCalificar.TabIndex = 6;
@@ -123,11 +124,24 @@
             this.btnCalificar.UseVisualStyleBackColor = false;
             this.btnCalificar.Click += new System.EventHandler(this.btnCalificar_Click);
             // 
+            // btnCancelar
+            // 
+            this.btnCancelar.BackColor = System.Drawing.Color.DarkSalmon;
+            this.btnCancelar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnCancelar.Location = new System.Drawing.Point(591, 370);
+            this.btnCancelar.Name = "btnCancelar";
+            this.btnCancelar.Size = new System.Drawing.Size(180, 59);
+            this.btnCancelar.TabIndex = 7;
+            this.btnCancelar.Text = "Cancelar";
+            this.btnCancelar.UseVisualStyleBackColor = false;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
+            // 
             // AgregarPuntuacion
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnCalificar);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtPuntos);
@@ -153,5 +167,6 @@
         private System.Windows.Forms.NumericUpDown txtPuntos;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Button btnCalificar;
+        private System.Windows.Forms.Button btnCancelar;
     }
 }

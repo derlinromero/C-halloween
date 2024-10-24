@@ -44,5 +44,10 @@ namespace ParcialHalloween.panel_admin.gestion_paradas
                 MessageBox.Show("Error al registrar la parada", "Error en registro");
             }
         }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

@@ -19,7 +19,6 @@ namespace ParcialHalloween
         {
             InitializeComponent();
             this.id = id;
-            ;
         }
 
         private void btnParadas_Click(object sender, EventArgs e)

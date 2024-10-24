@@ -84,5 +84,10 @@ namespace ParcialHalloween.panel_participante
                 }
             }
         }
+
+        private void btnCancelar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
