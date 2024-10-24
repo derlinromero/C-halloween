@@ -21,3 +21,26 @@ C:\Users\derli\Documents\C# Documents\ParcialHalloween\obj\Debug\ParcialHallowee
 C:\Users\derli\Documents\C# Documents\ParcialHalloween\obj\Debug\ParcialHalloween.panel_participante.ParadadeDulces.resources
 C:\Users\derli\Documents\C# Documents\ParcialHalloween\obj\Debug\ParcialHalloween.panel_participante.TablaPuntuaciones.resources
 C:\Users\derli\Documents\C# Documents\ParcialHalloween\obj\Debug\ParcialHalloween.panel_participante.AgregarPuntuacion.resources
+C:\Users\karen\C-halloween\ParcialHalloween\bin\Debug\ParcialHalloween.exe.config
+C:\Users\karen\C-halloween\ParcialHalloween\bin\Debug\ParcialHalloween.exe
+C:\Users\karen\C-halloween\ParcialHalloween\bin\Debug\ParcialHalloween.pdb
+C:\Users\karen\C-halloween\ParcialHalloween\obj\Debug\ParcialHalloween.csproj.AssemblyReference.cache
+C:\Users\karen\C-halloween\ParcialHalloween\obj\Debug\ParcialHalloween.PanelParti.resources
+C:\Users\karen\C-halloween\ParcialHalloween\obj\Debug\ParcialHalloween.panel_admin.gestion_paradas.AgregarParadas.resources
+C:\Users\karen\C-halloween\ParcialHalloween\obj\Debug\ParcialHalloween.panel_admin.gestion_paradas.EditarParadas.resources
+C:\Users\karen\C-halloween\ParcialHalloween\obj\Debug\ParcialHalloween.AgregarUsuario.resources
+C:\Users\karen\C-halloween\ParcialHalloween\obj\Debug\ParcialHalloween.EditarUsuario.resources
+C:\Users\karen\C-halloween\ParcialHalloween\obj\Debug\ParcialHalloween.GestionParadas.resources
+C:\Users\karen\C-halloween\ParcialHalloween\obj\Debug\ParcialHalloween.Login.resources
+C:\Users\karen\C-halloween\ParcialHalloween\obj\Debug\ParcialHalloween.GestionUsuarios.resources
+C:\Users\karen\C-halloween\ParcialHalloween\obj\Debug\ParcialHalloween.PanelAdmin.resources
+C:\Users\karen\C-halloween\ParcialHalloween\obj\Debug\ParcialHalloween.panel_participante.AgregarPuntuacion.resources
+C:\Users\karen\C-halloween\ParcialHalloween\obj\Debug\ParcialHalloween.panel_participante.ParadadeDulces.resources
+C:\Users\karen\C-halloween\ParcialHalloween\obj\Debug\ParcialHalloween.panel_participante.TablaPuntuaciones.resources
+C:\Users\karen\C-halloween\ParcialHalloween\obj\Debug\ParcialHalloween.Properties.Resources.resources
+C:\Users\karen\C-halloween\ParcialHalloween\obj\Debug\ParcialHalloween.Registro.resources
+C:\Users\karen\C-halloween\ParcialHalloween\obj\Debug\ParcialHalloween.TablaPuntos.resources
+C:\Users\karen\C-halloween\ParcialHalloween\obj\Debug\ParcialHalloween.csproj.GenerateResource.cache
+C:\Users\karen\C-halloween\ParcialHalloween\obj\Debug\ParcialHalloween.csproj.CoreCompileInputs.cache
+C:\Users\karen\C-halloween\ParcialHalloween\obj\Debug\ParcialHalloween.exe
+C:\Users\karen\C-halloween\ParcialHalloween\obj\Debug\ParcialHalloween.pdb

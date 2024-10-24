@@ -58,7 +58,7 @@
             this.btnUsuarios.Name = "btnUsuarios";
             this.btnUsuarios.Size = new System.Drawing.Size(452, 94);
             this.btnUsuarios.TabIndex = 0;
-            this.btnUsuarios.Text = "Gestion de Usuarios";
+            this.btnUsuarios.Text = "Gestión de Usuarios";
             this.btnUsuarios.UseVisualStyleBackColor = false;
             this.btnUsuarios.Click += new System.EventHandler(this.btnUsuarios_Click);
             // 

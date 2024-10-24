@@ -251,5 +251,35 @@
   <ItemGroup>
     <None Include="Resources\brujitasi.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tumbas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\589f098c64b351149f22a8a71.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tumbas1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\actividad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\what.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\locker1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ghosts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\winner.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\podio.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
