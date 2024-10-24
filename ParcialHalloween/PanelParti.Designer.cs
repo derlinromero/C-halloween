@@ -38,9 +38,10 @@
             // 
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(227, 52);
+            this.label3.Location = new System.Drawing.Point(303, 58);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(346, 35);
+            this.label3.Size = new System.Drawing.Size(461, 43);
             this.label3.TabIndex = 11;
             this.label3.Text = "Panel Partipante";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -50,9 +51,10 @@
             this.btnParadas.BackColor = System.Drawing.Color.SlateGray;
             this.btnParadas.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnParadas.ForeColor = System.Drawing.Color.White;
-            this.btnParadas.Location = new System.Drawing.Point(234, 127);
+            this.btnParadas.Location = new System.Drawing.Point(312, 156);
+            this.btnParadas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnParadas.Name = "btnParadas";
-            this.btnParadas.Size = new System.Drawing.Size(339, 76);
+            this.btnParadas.Size = new System.Drawing.Size(452, 94);
             this.btnParadas.TabIndex = 8;
             this.btnParadas.Text = "Ver Paradas de Dulces";
             this.btnParadas.UseVisualStyleBackColor = false;
@@ -63,9 +65,10 @@
             this.btnRanking.BackColor = System.Drawing.Color.SlateGray;
             this.btnRanking.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRanking.ForeColor = System.Drawing.Color.White;
-            this.btnRanking.Location = new System.Drawing.Point(234, 314);
+            this.btnRanking.Location = new System.Drawing.Point(312, 386);
+            this.btnRanking.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnRanking.Name = "btnRanking";
-            this.btnRanking.Size = new System.Drawing.Size(339, 76);
+            this.btnRanking.Size = new System.Drawing.Size(452, 94);
             this.btnRanking.TabIndex = 12;
             this.btnRanking.Text = "Ver Raking de Puntuaciones";
             this.btnRanking.UseVisualStyleBackColor = false;
@@ -76,9 +79,10 @@
             this.btnVotar.BackColor = System.Drawing.Color.SlateGray;
             this.btnVotar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVotar.ForeColor = System.Drawing.Color.White;
-            this.btnVotar.Location = new System.Drawing.Point(234, 222);
+            this.btnVotar.Location = new System.Drawing.Point(312, 273);
+            this.btnVotar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnVotar.Name = "btnVotar";
-            this.btnVotar.Size = new System.Drawing.Size(339, 76);
+            this.btnVotar.Size = new System.Drawing.Size(452, 94);
             this.btnVotar.TabIndex = 13;
             this.btnVotar.Text = "Calificar Disfraces";
             this.btnVotar.UseVisualStyleBackColor = false;
@@ -86,14 +90,15 @@
             // 
             // PanelParti
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkGreen;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.btnVotar);
             this.Controls.Add(this.btnRanking);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.btnParadas);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "PanelParti";
             this.Text = "PanelParti";
             this.ResumeLayout(false);

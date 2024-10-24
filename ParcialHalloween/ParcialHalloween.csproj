@@ -185,6 +185,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="login\Registro.resx">
       <DependentUpon>Registro.cs</DependentUpon>
@@ -205,6 +206,50 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <None Include="Resources\fondohalloween.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icono.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\locker.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spiderr %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spiderweb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\halloween.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondohalloween1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tumbas %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\589f098c64b351149f22a8a7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\murcielagos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\weeb.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\murcielagos1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brujitasi.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bruja.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\brujitasi.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
