@@ -32,7 +32,19 @@ namespace ParcialHalloween
         }
         private void btnRegistrarse_Click(object sender, EventArgs e)
         {
-            string codigoInv = txtCodigoInv.Text;
+            if (string.IsNullOrWhiteSpace(txtNombre.Text) || string.IsNullOrWhiteSpace(txtUsuario.Text) ||
+                string.IsNullOrWhiteSpace(txtContra.Text) || string.IsNullOrWhiteSpace(txtDisfraz.Text) ||
+                string.IsNullOrWhiteSpace(txtCodigoInv.Text)) {
+                MessageBox.Show("Por favor, no deje ningún campo vacío.", "Error");
+                return;
+            }
+
+            if (txtCodigoInv.Text.Length != 6) {
+                MessageBox.Show("El código de invitación debe tener exactamente 6 caracteres.", "Error");
+                return;
+            }
+            
+            string codigoInv = txtCodigoInv.Text.ToUpper();
             string nombreDeUsuario = txtUsuario.Text;
             string contraseña = txtContra.Text;
             string nombre = txtNombre.Text;

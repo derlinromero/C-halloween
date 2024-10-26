@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ParcialHalloween.Datos;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -7,52 +8,47 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using ParcialHalloween.Datos;
 using ParcialHalloween.Entities;
 
-namespace ParcialHalloween
+namespace ParcialHalloween.panel_admin
 {
     public partial class TablaPuntos : Form
     {
         private Db db;
-        
+
+
         public TablaPuntos()
         {
             InitializeComponent();
             db = new Db();
-            CargarTabla();
+            CargarRanking();
         }
 
-        private void CargarTabla()
+        private void CargarRanking()
         {
-            var tabla = db.ObtenerTablaPuntuaciones();
-
-            lsbPuntuaciones.Items.Clear();
-            int i = 1;
-            foreach (var item in tabla)
+            var ranking = db.ObtenerRanking();
+            var primerPuesto = ranking[0];
+            var segundoPuesto = ranking[1];
+            Ranking tercerPuesto = null;
+            if (ranking.Count > 2)
             {
-                lsbPuntuaciones.Items.Add(i + " - " + item.nombre + ": " + item.puntos + " punto/s");
-                i++;
+                tercerPuesto = ranking[2];
             }
-        }
 
-        private void lsbPuntuaciones_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (lsbPuntuaciones.SelectedIndex != -1) {
-                string usuSelec = lsbPuntuaciones.SelectedItem.ToString().Split(new[] { " - " }, StringSplitOptions.None)[1].Split(new[] { ": " }, StringSplitOptions.None)[0];
-                
-                var listaUsuarios = db.ObtenerUsuarios();
-                Usuario usuarioSeleccionado = null;
+            label1.Text = primerPuesto.nombre + "\n" + primerPuesto.disfraz + "\n" + primerPuesto.puntos + " punto/s";
+            pcb1.Image = Image.FromFile(primerPuesto.foto);
 
-                foreach (var usuario in listaUsuarios)
-                {
-                    if (usuario.nombre == usuSelec) {
-                        pcbFoto.Image = Image.FromFile(usuario.foto);
-                        txtNombreDisfraz.Text = "Nombre del Disfraz: " + usuario.disfraz;
-                        usuarioSeleccionado = usuario;
-                        break;
-                    }
-                }
+            label2.Text = segundoPuesto.nombre + "\n" + segundoPuesto.disfraz + "\n" + segundoPuesto.puntos + " punto/s";
+            pcb2.Image = Image.FromFile(segundoPuesto.foto);
+
+            if (ranking.Count > 2)
+            {
+                label3.Text = tercerPuesto.nombre + "\n" + tercerPuesto.disfraz + "\n" + tercerPuesto.puntos + " punto/s";
+                pcb3.Image = Image.FromFile(tercerPuesto.foto);
+            }
+            else
+            {
+                pcbTercero.Visible = false;
             }
         }
     }

@@ -48,7 +48,7 @@ namespace ParcialHalloween.panel_participante
                 {
                     if (participante.nombre == partiSelec) {
                         pcbFoto.Image = Image.FromFile(participante.foto);
-                        txtNombreDisfraz.Text = "Nombre del Disfraz: " + participante.disfraz;
+                        txtNombreDisfraz.Text = participante.disfraz;
                         participanteSeleccionado = participante;
                         break;
                     }
@@ -58,6 +58,17 @@ namespace ParcialHalloween.panel_participante
 
         private void btnCalificar_Click(object sender, EventArgs e)
         {
+            if (lsbParticipantes.SelectedIndex == -1) {
+                MessageBox.Show("Seleccione un participante.", "Advertencia");
+                return;
+            }
+
+            int puntos = Convert.ToInt32(txtPuntos.Value);
+            if (puntos < 1 || puntos > 10) {
+                MessageBox.Show("La puntuación debe estar entre 1 y 10.", "Error");
+                return;
+            }
+            
             if (lsbParticipantes.SelectedIndex != -1)
             {
                 string partiSelec = lsbParticipantes.SelectedItem.ToString();
@@ -73,8 +84,6 @@ namespace ParcialHalloween.panel_participante
                         break;
                     }
                 }
-
-                int puntos = Convert.ToInt32(txtPuntos.Value);
 
                 bool resultado = db.AgregarPuntuacion(participanteSeleccionado.id, id, puntos);
 

@@ -23,8 +23,8 @@ namespace ParcialHalloween
 
         private void btnParadas_Click(object sender, EventArgs e)
         {
-            ParadadeDulces paradadeDulces = new ParadadeDulces();
-            paradadeDulces.Show();
+            ParadasVista paradasAleatorias = new ParadasVista();
+            paradasAleatorias.Show();
         }
 
         private void btnRanking_Click(object sender, EventArgs e)

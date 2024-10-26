@@ -47,7 +47,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Entities\Nombre.cs" />
     <Compile Include="Entities\Ranking.cs" />
     <Compile Include="PanelParti.cs">
       <SubType>Form</SubType>
@@ -109,6 +108,12 @@
     <Compile Include="PanelAdmin.Designer.cs">
       <DependentUpon>PanelAdmin.cs</DependentUpon>
     </Compile>
+    <Compile Include="panel_admin\TablaPuntos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="panel_admin\TablaPuntos.Designer.cs">
+      <DependentUpon>TablaPuntos.cs</DependentUpon>
+    </Compile>
     <Compile Include="panel_participante\AgregarPuntuacion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -120,6 +125,12 @@
     </Compile>
     <Compile Include="panel_participante\ParadadeDulces.Designer.cs">
       <DependentUpon>ParadadeDulces.cs</DependentUpon>
+    </Compile>
+    <Compile Include="panel_participante\ParadasVista.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="panel_participante\ParadasVista.Designer.cs">
+      <DependentUpon>ParadasVista.cs</DependentUpon>
     </Compile>
     <Compile Include="panel_participante\TablaPuntuaciones.cs">
       <SubType>Form</SubType>
@@ -134,12 +145,6 @@
     </Compile>
     <Compile Include="login\Registro.Designer.cs">
       <DependentUpon>Registro.cs</DependentUpon>
-    </Compile>
-    <Compile Include="panel_admin\TablaPuntos.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="panel_admin\TablaPuntos.Designer.cs">
-      <DependentUpon>TablaPuntos.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="PanelParti.resx">
       <DependentUpon>PanelParti.cs</DependentUpon>
@@ -168,11 +173,17 @@
     <EmbeddedResource Include="PanelAdmin.resx">
       <DependentUpon>PanelAdmin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="panel_admin\TablaPuntos.resx">
+      <DependentUpon>TablaPuntos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="panel_participante\AgregarPuntuacion.resx">
       <DependentUpon>AgregarPuntuacion.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="panel_participante\ParadadeDulces.resx">
       <DependentUpon>ParadadeDulces.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="panel_participante\ParadasVista.resx">
+      <DependentUpon>ParadasVista.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="panel_participante\TablaPuntuaciones.resx">
       <DependentUpon>TablaPuntuaciones.cs</DependentUpon>
@@ -189,9 +200,6 @@
     </Compile>
     <EmbeddedResource Include="login\Registro.resx">
       <DependentUpon>Registro.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="panel_admin\TablaPuntos.resx">
-      <DependentUpon>TablaPuntos.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -280,6 +288,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\podio.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Casa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Casa-black_white.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\desert.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

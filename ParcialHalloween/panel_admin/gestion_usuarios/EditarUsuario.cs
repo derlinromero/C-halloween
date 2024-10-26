@@ -41,24 +41,33 @@ namespace ParcialHalloween
             }
         }
 
-        private void btnGuardar_Click(object sender, EventArgs e)
+        private void btnRegistrarse_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrEmpty(txtNombre.Text) || string.IsNullOrEmpty(txtUsuario.Text) ||
+                string.IsNullOrEmpty(txtContra.Text)) {
+                MessageBox.Show("Debe completar todos los campos obligatorios.", "Error");
+                return;
+            }
+            
             string nuevoNombre = txtNombre.Text;
             string nuevoNombreDeUsuario = txtUsuario.Text;
             string nuevaContraseña = txtContra.Text;
             string nuevoDisfraz = txtDisfraz.Text;
             string nuevaFoto = ofdFoto.FileName;
 
-            if (string.IsNullOrEmpty(nuevoNombre)) {
+            if (string.IsNullOrEmpty(nuevoNombre))
+            {
                 MessageBox.Show("Debe ingresar un nombre para el participante.");
                 return;
             }
 
-            if (string.IsNullOrEmpty(nuevaFoto)) {
+            if (string.IsNullOrEmpty(nuevaFoto))
+            {
                 nuevaFoto = participanteSelec.foto;
             }
 
-            try {
+            try
+            {
                 participanteSelec.nombre = nuevoNombre;
                 participanteSelec.nombreDeUsuario = nuevoNombreDeUsuario;
                 participanteSelec.contraseña = nuevaContraseña;

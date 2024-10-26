@@ -30,6 +30,11 @@ namespace ParcialHalloween.panel_admin.gestion_paradas
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
+            if (string.IsNullOrEmpty(txtNombre.Text) || Convert.ToInt32(txtCantidadIni.Text) <= 0) {
+                MessageBox.Show("No puede dejar el nombre vacío y debe insertar una cantidad inicial válida.", "Error");
+                return;
+            }
+            
             string nuevoNombre = txtNombre.Text;
             int nuevaCantidad = Convert.ToInt32(txtCantidadIni.Text);
             string nuevoTipo = txtTipoDulces.Text;

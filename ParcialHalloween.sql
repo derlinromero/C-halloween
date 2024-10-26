@@ -14,8 +14,7 @@ CREATE TABLE ParadasDulces (
     nombre NVARCHAR(100) NOT NULL,
     cantidadIni INT CHECK(cantidadIni >= 0),
     cantidadAct INT CHECK(cantidadAct >= 0),
-    TipoDulces NVARCHAR(50),
-	foto NVARCHAR(MAX) NOT NULL
+    TipoDulces NVARCHAR(50)
 );
 
 CREATE TABLE Puntuaciones (
@@ -82,6 +81,17 @@ BEGIN
 	GROUP BY u.nombre, u.disfraz, u.foto ORDER BY SUM(p.puntos) DESC, u.nombre
 END;
 
+/*CREATE TRIGGER trg_uppercase_codigo_inv
+ON Usuarios
+AFTER INSERT, UPDATE
+AS
+BEGIN
+    UPDATE u
+    SET u.codigo_inv = UPPER(i.codigo_inv)
+    FROM Usuarios u
+    INNER JOIN inserted i ON u.id = i.id;
+END;*/
+
 INSERT INTO Usuarios (nombre, nombreDeUsuario, contraseña, rol, disfraz, codigo_inv, foto)
 VALUES ('John Doe', 'johndoe', 'password123', 'Participante', 'Vampiro', 'INV123', 'C:\Users\derli\Pictures\Cara Youtuber.jpg');
 
@@ -91,11 +101,11 @@ VALUES('Juanito Alimaña', 'juanali', '123password', 'Participante', 'Bob Esponja
 INSERT INTO Usuarios (nombre, nombreDeUsuario, contraseña, rol, disfraz, codigo_inv, foto)
 VALUES ('Jane Smith', 'janesmith', 'securepass', 'Administrador', NULL, NULL, NULL);
 
-INSERT INTO ParadasDulces (nombre, cantidadIni, cantidadAct, TipoDulces, foto)
+INSERT INTO ParadasDulces (nombre, cantidadIni, cantidadAct, TipoDulces)
 VALUES 
-('Casa 666', 100, 100, 'Caramelos', 'C:\Users\derli\Pictures\CasasN1.jpg'),
-('El Cementerio', 200, 200, 'Gomitas', 'C:\Users\derli\Pictures\CasaN2.jpg'),
-('Casa Embrujada', 150, 150, 'Chocolates', 'C:\Users\derli\Pictures\CasaN3.jpg');
+('Casa 666', 100, 100, 'Caramelos'),
+('El Cementerio', 200, 200, 'Gomitas'),
+('Casa Embrujada', 150, 150, 'Chocolates');
 
 INSERT INTO Puntuaciones (puntos, usuarioID, usuarioCalificadorID)
 VALUES
@@ -110,10 +120,13 @@ VALUES
 (10, 5, 1),
 (10, 5, 1);
 
+ALTER TABLE Usuarios
+ADD CONSTRAINT chk_codigo_inv CHECK (LEN(codigo_inv) = 6);
+
 -- DE AQUI PARA ABAJO NO ES NECESARIO
 
 SELECT * FROM Usuarios
 SELECT * FROM Puntuaciones
 SELECT * FROM ParadasDulces
 
-SELECT * FROM Usuarios WHERE rol = 'Participante' AND id != 1
+UPDATE ParadasDulces SET cantidadAct = 150 WHERE id = 3

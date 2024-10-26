@@ -1,66 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\karen\\C-halloween\\ParcialHalloween\\",
+  "WorkspaceRootPath": "C:\\Users\\derli\\Desktop\\C# Halloween\\ParcialHalloween\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{21F553FD-CC59-4936-A9F1-15F6BA06E3C4}|ParcialHalloween.csproj|C:\\Users\\karen\\C-halloween\\ParcialHalloween\\panel_participante\\agregarpuntuacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{21F553FD-CC59-4936-A9F1-15F6BA06E3C4}|ParcialHalloween.csproj|solutionrelative:panel_participante\\agregarpuntuacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{21F553FD-CC59-4936-A9F1-15F6BA06E3C4}|ParcialHalloween.csproj|c:\\users\\derli\\desktop\\c# halloween\\parcialhalloween\\panel_participante\\paradasvista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21F553FD-CC59-4936-A9F1-15F6BA06E3C4}|ParcialHalloween.csproj|solutionrelative:panel_participante\\paradasvista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{21F553FD-CC59-4936-A9F1-15F6BA06E3C4}|ParcialHalloween.csproj|c:\\users\\karen\\c-halloween\\parcialhalloween\\panel_admin\\tablapuntos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{21F553FD-CC59-4936-A9F1-15F6BA06E3C4}|ParcialHalloween.csproj|solutionrelative:panel_admin\\tablapuntos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21F553FD-CC59-4936-A9F1-15F6BA06E3C4}|ParcialHalloween.csproj|c:\\users\\karen\\c-halloween\\parcialhalloween\\panel_participante\\tablapuntuaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{21F553FD-CC59-4936-A9F1-15F6BA06E3C4}|ParcialHalloween.csproj|solutionrelative:panel_participante\\tablapuntuaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21F553FD-CC59-4936-A9F1-15F6BA06E3C4}|ParcialHalloween.csproj|c:\\users\\karen\\c-halloween\\parcialhalloween\\login\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{21F553FD-CC59-4936-A9F1-15F6BA06E3C4}|ParcialHalloween.csproj|solutionrelative:login\\registro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21F553FD-CC59-4936-A9F1-15F6BA06E3C4}|ParcialHalloween.csproj|c:\\users\\karen\\c-halloween\\parcialhalloween\\panel_admin\\gestion_usuarios\\editarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{21F553FD-CC59-4936-A9F1-15F6BA06E3C4}|ParcialHalloween.csproj|solutionrelative:panel_admin\\gestion_usuarios\\editarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21F553FD-CC59-4936-A9F1-15F6BA06E3C4}|ParcialHalloween.csproj|c:\\users\\karen\\c-halloween\\parcialhalloween\\panel_admin\\gestion_usuarios\\agregarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{21F553FD-CC59-4936-A9F1-15F6BA06E3C4}|ParcialHalloween.csproj|solutionrelative:panel_admin\\gestion_usuarios\\agregarusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21F553FD-CC59-4936-A9F1-15F6BA06E3C4}|ParcialHalloween.csproj|c:\\users\\karen\\c-halloween\\parcialhalloween\\panel_admin\\gestion_paradas\\agregarparadas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{21F553FD-CC59-4936-A9F1-15F6BA06E3C4}|ParcialHalloween.csproj|solutionrelative:panel_admin\\gestion_paradas\\agregarparadas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21F553FD-CC59-4936-A9F1-15F6BA06E3C4}|ParcialHalloween.csproj|c:\\users\\karen\\c-halloween\\parcialhalloween\\panel_participante\\paradadedulces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{21F553FD-CC59-4936-A9F1-15F6BA06E3C4}|ParcialHalloween.csproj|solutionrelative:panel_participante\\paradadedulces.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21F553FD-CC59-4936-A9F1-15F6BA06E3C4}|ParcialHalloween.csproj|c:\\users\\karen\\c-halloween\\parcialhalloween\\panelparti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{21F553FD-CC59-4936-A9F1-15F6BA06E3C4}|ParcialHalloween.csproj|solutionrelative:panelparti.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21F553FD-CC59-4936-A9F1-15F6BA06E3C4}|ParcialHalloween.csproj|c:\\users\\karen\\c-halloween\\parcialhalloween\\paneladmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{21F553FD-CC59-4936-A9F1-15F6BA06E3C4}|ParcialHalloween.csproj|solutionrelative:paneladmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21F553FD-CC59-4936-A9F1-15F6BA06E3C4}|ParcialHalloween.csproj|c:\\users\\karen\\c-halloween\\parcialhalloween\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{21F553FD-CC59-4936-A9F1-15F6BA06E3C4}|ParcialHalloween.csproj|solutionrelative:login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21F553FD-CC59-4936-A9F1-15F6BA06E3C4}|ParcialHalloween.csproj|c:\\users\\karen\\c-halloween\\parcialhalloween\\panel_admin\\gestionusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{21F553FD-CC59-4936-A9F1-15F6BA06E3C4}|ParcialHalloween.csproj|solutionrelative:panel_admin\\gestionusuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21F553FD-CC59-4936-A9F1-15F6BA06E3C4}|ParcialHalloween.csproj|c:\\users\\karen\\c-halloween\\parcialhalloween\\panel_admin\\gestionparadas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{21F553FD-CC59-4936-A9F1-15F6BA06E3C4}|ParcialHalloween.csproj|solutionrelative:panel_admin\\gestionparadas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21F553FD-CC59-4936-A9F1-15F6BA06E3C4}|ParcialHalloween.csproj|c:\\users\\karen\\c-halloween\\parcialhalloween\\panel_admin\\gestion_paradas\\editarparadas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{21F553FD-CC59-4936-A9F1-15F6BA06E3C4}|ParcialHalloween.csproj|solutionrelative:panel_admin\\gestion_paradas\\editarparadas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{21F553FD-CC59-4936-A9F1-15F6BA06E3C4}|ParcialHalloween.csproj|c:\\users\\karen\\c-halloween\\parcialhalloween\\datos\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{21F553FD-CC59-4936-A9F1-15F6BA06E3C4}|ParcialHalloween.csproj|solutionrelative:datos\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{21F553FD-CC59-4936-A9F1-15F6BA06E3C4}|ParcialHalloween.csproj|c:\\users\\derli\\desktop\\c# halloween\\parcialhalloween\\panel_participante\\paradasvista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{21F553FD-CC59-4936-A9F1-15F6BA06E3C4}|ParcialHalloween.csproj|solutionrelative:panel_participante\\paradasvista.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -75,188 +23,27 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "AgregarPuntuacion.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\karen\\C-halloween\\ParcialHalloween\\panel_participante\\AgregarPuntuacion.cs",
-              "RelativeDocumentMoniker": "panel_participante\\AgregarPuntuacion.cs",
-              "ToolTip": "C:\\Users\\karen\\C-halloween\\ParcialHalloween\\panel_participante\\AgregarPuntuacion.cs [Dise\u00F1o]",
-              "RelativeToolTip": "panel_participante\\AgregarPuntuacion.cs [Dise\u00F1o]",
+              "Title": "ParadasVista.cs",
+              "DocumentMoniker": "C:\\Users\\derli\\Desktop\\C# Halloween\\ParcialHalloween\\panel_participante\\ParadasVista.cs",
+              "RelativeDocumentMoniker": "panel_participante\\ParadasVista.cs",
+              "ToolTip": "C:\\Users\\derli\\Desktop\\C# Halloween\\ParcialHalloween\\panel_participante\\ParadasVista.cs",
+              "RelativeToolTip": "panel_participante\\ParadasVista.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T02:57:32.147Z",
-              "IsPinned": true,
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Registro.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\karen\\C-halloween\\ParcialHalloween\\login\\Registro.cs",
-              "RelativeDocumentMoniker": "login\\Registro.cs",
-              "ToolTip": "C:\\Users\\karen\\C-halloween\\ParcialHalloween\\login\\Registro.cs [Dise\u00F1o]",
-              "RelativeToolTip": "login\\Registro.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T05:49:40.748Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2024-10-26T20:10:40.207Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TablaPuntos.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\karen\\C-halloween\\ParcialHalloween\\panel_admin\\TablaPuntos.cs",
-              "RelativeDocumentMoniker": "panel_admin\\TablaPuntos.cs",
-              "ToolTip": "C:\\Users\\karen\\C-halloween\\ParcialHalloween\\panel_admin\\TablaPuntos.cs [Dise\u00F1o]",
-              "RelativeToolTip": "panel_admin\\TablaPuntos.cs [Dise\u00F1o]",
+              "Title": "ParadasVista.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\derli\\Desktop\\C# Halloween\\ParcialHalloween\\panel_participante\\ParadasVista.cs",
+              "RelativeDocumentMoniker": "panel_participante\\ParadasVista.cs",
+              "ToolTip": "C:\\Users\\derli\\Desktop\\C# Halloween\\ParcialHalloween\\panel_participante\\ParadasVista.cs [Design]",
+              "RelativeToolTip": "panel_participante\\ParadasVista.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T05:49:55.228Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TablaPuntuaciones.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\karen\\C-halloween\\ParcialHalloween\\panel_participante\\TablaPuntuaciones.cs",
-              "RelativeDocumentMoniker": "panel_participante\\TablaPuntuaciones.cs",
-              "ToolTip": "C:\\Users\\karen\\C-halloween\\ParcialHalloween\\panel_participante\\TablaPuntuaciones.cs [Dise\u00F1o]",
-              "RelativeToolTip": "panel_participante\\TablaPuntuaciones.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T05:50:28.667Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EditarUsuario.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\karen\\C-halloween\\ParcialHalloween\\panel_admin\\gestion_usuarios\\EditarUsuario.cs",
-              "RelativeDocumentMoniker": "panel_admin\\gestion_usuarios\\EditarUsuario.cs",
-              "ToolTip": "C:\\Users\\karen\\C-halloween\\ParcialHalloween\\panel_admin\\gestion_usuarios\\EditarUsuario.cs [Dise\u00F1o]",
-              "RelativeToolTip": "panel_admin\\gestion_usuarios\\EditarUsuario.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T05:50:07.161Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "AgregarUsuario.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\karen\\C-halloween\\ParcialHalloween\\panel_admin\\gestion_usuarios\\AgregarUsuario.cs",
-              "RelativeDocumentMoniker": "panel_admin\\gestion_usuarios\\AgregarUsuario.cs",
-              "ToolTip": "C:\\Users\\karen\\C-halloween\\ParcialHalloween\\panel_admin\\gestion_usuarios\\AgregarUsuario.cs [Dise\u00F1o]",
-              "RelativeToolTip": "panel_admin\\gestion_usuarios\\AgregarUsuario.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T05:50:06.236Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "AgregarParadas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\karen\\C-halloween\\ParcialHalloween\\panel_admin\\gestion_paradas\\AgregarParadas.cs",
-              "RelativeDocumentMoniker": "panel_admin\\gestion_paradas\\AgregarParadas.cs",
-              "ToolTip": "C:\\Users\\karen\\C-halloween\\ParcialHalloween\\panel_admin\\gestion_paradas\\AgregarParadas.cs [Dise\u00F1o]",
-              "RelativeToolTip": "panel_admin\\gestion_paradas\\AgregarParadas.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T05:50:04.445Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ParadadeDulces.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\karen\\C-halloween\\ParcialHalloween\\panel_participante\\ParadadeDulces.cs",
-              "RelativeDocumentMoniker": "panel_participante\\ParadadeDulces.cs",
-              "ToolTip": "C:\\Users\\karen\\C-halloween\\ParcialHalloween\\panel_participante\\ParadadeDulces.cs [Dise\u00F1o]",
-              "RelativeToolTip": "panel_participante\\ParadadeDulces.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T05:50:27.802Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "PanelParti.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\karen\\C-halloween\\ParcialHalloween\\PanelParti.cs",
-              "RelativeDocumentMoniker": "PanelParti.cs",
-              "ToolTip": "C:\\Users\\karen\\C-halloween\\ParcialHalloween\\PanelParti.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PanelParti.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T05:50:34.756Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "PanelAdmin.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\karen\\C-halloween\\ParcialHalloween\\PanelAdmin.cs",
-              "RelativeDocumentMoniker": "PanelAdmin.cs",
-              "ToolTip": "C:\\Users\\karen\\C-halloween\\ParcialHalloween\\PanelAdmin.cs [Dise\u00F1o]",
-              "RelativeToolTip": "PanelAdmin.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T05:50:34.019Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Login.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\karen\\C-halloween\\ParcialHalloween\\Login.cs",
-              "RelativeDocumentMoniker": "Login.cs",
-              "ToolTip": "C:\\Users\\karen\\C-halloween\\ParcialHalloween\\Login.cs [Dise\u00F1o]",
-              "RelativeToolTip": "Login.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T05:50:33.363Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "GestionUsuarios.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\karen\\C-halloween\\ParcialHalloween\\panel_admin\\GestionUsuarios.cs",
-              "RelativeDocumentMoniker": "panel_admin\\GestionUsuarios.cs",
-              "ToolTip": "C:\\Users\\karen\\C-halloween\\ParcialHalloween\\panel_admin\\GestionUsuarios.cs [Dise\u00F1o]",
-              "RelativeToolTip": "panel_admin\\GestionUsuarios.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T05:49:54.356Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "GestionParadas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\karen\\C-halloween\\ParcialHalloween\\panel_admin\\GestionParadas.cs",
-              "RelativeDocumentMoniker": "panel_admin\\GestionParadas.cs",
-              "ToolTip": "C:\\Users\\karen\\C-halloween\\ParcialHalloween\\panel_admin\\GestionParadas.cs [Dise\u00F1o]",
-              "RelativeToolTip": "panel_admin\\GestionParadas.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T05:49:53.562Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "EditarParadas.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\karen\\C-halloween\\ParcialHalloween\\panel_admin\\gestion_paradas\\EditarParadas.cs",
-              "RelativeDocumentMoniker": "panel_admin\\gestion_paradas\\EditarParadas.cs",
-              "ToolTip": "C:\\Users\\karen\\C-halloween\\ParcialHalloween\\panel_admin\\gestion_paradas\\EditarParadas.cs [Dise\u00F1o]",
-              "RelativeToolTip": "panel_admin\\gestion_paradas\\EditarParadas.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T05:50:05.254Z",
-              "EditorCaption": " [Dise\u00F1o]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Db.cs",
-              "DocumentMoniker": "C:\\Users\\karen\\C-halloween\\ParcialHalloween\\Datos\\Db.cs",
-              "RelativeDocumentMoniker": "Datos\\Db.cs",
-              "ToolTip": "C:\\Users\\karen\\C-halloween\\ParcialHalloween\\Datos\\Db.cs",
-              "RelativeToolTip": "Datos\\Db.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIgAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-24T03:14:55.222Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-26T20:05:06.487Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

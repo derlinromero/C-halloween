@@ -15,73 +15,42 @@ namespace ParcialHalloween.panel_participante
     public partial class ParadadeDulces : Form
     {
         private Db db;
-        
-        public ParadadeDulces()
+        private Parada_De_Dulces parada;
+
+        public ParadadeDulces(Parada_De_Dulces paradaSeleccionada)
         {
             InitializeComponent();
             db = new Db();
-            CargarParadas();
+            parada = paradaSeleccionada;
+            CargarInformacionParada();
         }
 
-        private void CargarParadas()
+        private void CargarInformacionParada()
         {
-            var paradas = db.ObtenerDisponibleParadas();
-
-            cmbParadas.Items.Clear();
-            foreach (var item in paradas)
-            {
-                cmbParadas.Items.Add(item.nombre);
-            }
-        }
-
-        private void cmbParadas_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            if (cmbParadas.SelectedIndex != -1)
-            {
-                string paradaSelec = cmbParadas.SelectedItem.ToString();
-
-                var listaParadas = db.ObtenerDisponibleParadas();
-                Parada_De_Dulces paradaDeDulces = null;
-
-                foreach (var parada in listaParadas)
-                {
-                    if (parada.nombre == paradaSelec)
-                    {
-                        pcbFoto.Image = Image.FromFile(parada.foto);
-                        txtDulcesDisp.Text = parada.cant_actual + " Dulce/s disponible/s";
-                        txtDulcesTomar.Maximum = parada.cant_actual;
-                        paradaDeDulces = parada;
-                        break;
-                    }
-                }
-            }
+            lblNombreParada.Text = parada.nombre;
+            lblDulcesDisp.Text = "Dulces disponibles: " + parada.cant_actual;
         }
 
         private void btnTomarDulce_Click(object sender, EventArgs e)
         {
-            if (cmbParadas.SelectedIndex != -1) {
-                string paradaSelec = cmbParadas.SelectedItem.ToString();
+            int cantidadTomada = Convert.ToInt32(txtDulcesTomar.Text);
 
-                var listaParadas = db.ObtenerDisponibleParadas();
-                Parada_De_Dulces paradaDeDulces = null;
+            if (cantidadTomada <= parada.cant_actual)
+            {
+                parada.cant_actual -= cantidadTomada;
+                db.ActualizarCantidadParadas(cantidadTomada, parada);
+                MessageBox.Show("Has tomado " + cantidadTomada + " dulce/s", "Confirmación");
 
-                DialogResult resultado = MessageBox.Show("Seguro que deseas esa cantidad de dulces?", "Confirmar Eliminación", MessageBoxButtons.YesNo);
+                lblDulcesDisp.Text = "Dulces disponibles: " + parada.cant_actual;
 
-                if (resultado == DialogResult.Yes) {
-                    foreach (var parada in listaParadas)
-                    {
-                        if (parada.nombre == paradaSelec)
-                        {
-                            paradaDeDulces = parada;
-                            int cantidad = Convert.ToInt32(txtDulcesTomar.Text);
-                            ;
-                            db.ActualizarCantidadParadas(cantidad, paradaDeDulces);
-                            MessageBox.Show("Se tomaron " + cantidad + " dulce/s", "Confirmación");
-                            this.Close();
-                            break;
-                        }
-                    }
+                if (parada.cant_actual == 0)
+                {
+                    MessageBox.Show(parada.nombre + " no tiene más dulces disponibles.", "Sin Dulces");
                 }
+            }
+            else
+            {
+                MessageBox.Show("No hay suficientes dulces disponibles.", "Error");
             }
         }
 

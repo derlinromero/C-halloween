@@ -27,7 +27,7 @@ namespace ParcialHalloween
             if (ok == DialogResult.OK)
             {
                 pcbFoto.ImageLocation = ofdFoto.FileName;
-                
+
                 pcbFoto.Image = Image.FromFile(ofdFoto.FileName);
             }
         }
@@ -41,11 +41,16 @@ namespace ParcialHalloween
                 return;
             }
 
+            if (txtCodigoInv.Text.Length != 6) {
+                MessageBox.Show("El código de invitación debe tener exactamente 6 caracteres.", "Error");
+                return;
+            }
+
             string nombre = txtNombre.Text;
             string nombreDeUsuario = txtUsuario.Text;
             string contraseña = txtContra.Text;
             string disfraz = txtDisfraz.Text;
-            string codigoInv = txtCodigoInv.Text;
+            string codigoInv = txtCodigoInv.Text.ToUpper();
             string foto = pcbFoto.ImageLocation;
             
             bool result = db.AgregarUsuario(nombre, nombreDeUsuario, contraseña, "Participante", disfraz, codigoInv, foto);

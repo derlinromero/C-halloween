@@ -333,8 +333,7 @@ namespace ParcialHalloween.Datos
                             nombre = row["nombre"].ToString(),
                             cant_inicial = Convert.ToInt32(row["cantidadIni"].ToString()),
                             cant_actual = Convert.ToInt32(row["cantidadAct"].ToString()),
-                            tipoDulces = row["TipoDulces"].ToString(),
-                            foto = row["foto"].ToString()
+                            tipoDulces = row["TipoDulces"].ToString()
                         };
                         paradas.Add(parada);
                     }
@@ -413,8 +412,7 @@ namespace ParcialHalloween.Datos
                             nombre = row["nombre"].ToString(),
                             cant_inicial = Convert.ToInt32(row["cantidadIni"].ToString()),
                             cant_actual = Convert.ToInt32(row["cantidadAct"].ToString()),
-                            tipoDulces = row["TipoDulces"].ToString(),
-                            foto = row["foto"].ToString()
+                            tipoDulces = row["TipoDulces"].ToString()
                         };
                         paradas.Add(parada);
                     }
@@ -467,6 +465,29 @@ namespace ParcialHalloween.Datos
                 con.Close();
             }
             return ranking;
+        }
+
+        public int ObtenerCantidadDulces(int paradaID) {
+            int cantidadDulces = 0;
+
+            try {
+                con.Open();
+                cmd.CommandType = CommandType.Text;
+                cmd.CommandText = "SELECT cantidadAct FROM ParadasDulces WHERE id = @paradaID";
+                cmd.Parameters.Clear();
+                cmd.Parameters.Add(new SqlParameter("@paradaID", paradaID));
+
+                cantidadDulces = Convert.ToInt32(cmd.ExecuteScalar());
+            }
+            catch (Exception ex)
+            {
+                throw new Exception("Error al obtener paradas de dulces");
+            }
+            finally
+            {
+                con.Close();
+            }
+            return cantidadDulces;
         }
         #endregion
 

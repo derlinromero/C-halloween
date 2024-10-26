@@ -12,6 +12,5 @@ namespace ParcialHalloween.Entities
         public int cant_inicial { get; set; }
         public int cant_actual { get; set; }
         public string tipoDulces { get; set; }
-       public string foto {  get; set; }
     }
 }
