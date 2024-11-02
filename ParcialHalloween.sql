@@ -129,4 +129,6 @@ SELECT * FROM Usuarios
 SELECT * FROM Puntuaciones
 SELECT * FROM ParadasDulces
 
-UPDATE ParadasDulces SET cantidadAct = 150 WHERE id = 3
+UPDATE Usuarios SET nombre = 'Luis ' WHERE id = 4
+
+DELETE FROM Puntuaciones

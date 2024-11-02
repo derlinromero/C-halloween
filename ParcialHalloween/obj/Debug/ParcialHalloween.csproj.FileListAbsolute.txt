@@ -91,3 +91,27 @@ C:\Users\derli\Desktop\C# Halloween\ParcialHalloween\bin\Debug\ParcialHalloween.
 C:\Users\derli\Desktop\C# Halloween\ParcialHalloween\bin\Debug\ParcialHalloween.exe
 C:\Users\derli\Desktop\C# Halloween\ParcialHalloween\bin\Debug\ParcialHalloween.pdb
 C:\Users\derli\Desktop\C# Halloween\ParcialHalloween\obj\Debug\ParcialHalloween.panel_participante.ParadasVista.resources
+C:\Users\derli\Desktop\C# Halloween V2\ParcialHalloween\bin\Debug\ParcialHalloween.exe.config
+C:\Users\derli\Desktop\C# Halloween V2\ParcialHalloween\bin\Debug\ParcialHalloween.exe
+C:\Users\derli\Desktop\C# Halloween V2\ParcialHalloween\bin\Debug\ParcialHalloween.pdb
+C:\Users\derli\Desktop\C# Halloween V2\ParcialHalloween\obj\Debug\ParcialHalloween.csproj.AssemblyReference.cache
+C:\Users\derli\Desktop\C# Halloween V2\ParcialHalloween\obj\Debug\ParcialHalloween.PanelParti.resources
+C:\Users\derli\Desktop\C# Halloween V2\ParcialHalloween\obj\Debug\ParcialHalloween.panel_admin.gestion_paradas.AgregarParadas.resources
+C:\Users\derli\Desktop\C# Halloween V2\ParcialHalloween\obj\Debug\ParcialHalloween.panel_admin.gestion_paradas.EditarParadas.resources
+C:\Users\derli\Desktop\C# Halloween V2\ParcialHalloween\obj\Debug\ParcialHalloween.AgregarUsuario.resources
+C:\Users\derli\Desktop\C# Halloween V2\ParcialHalloween\obj\Debug\ParcialHalloween.EditarUsuario.resources
+C:\Users\derli\Desktop\C# Halloween V2\ParcialHalloween\obj\Debug\ParcialHalloween.GestionParadas.resources
+C:\Users\derli\Desktop\C# Halloween V2\ParcialHalloween\obj\Debug\ParcialHalloween.Login.resources
+C:\Users\derli\Desktop\C# Halloween V2\ParcialHalloween\obj\Debug\ParcialHalloween.GestionUsuarios.resources
+C:\Users\derli\Desktop\C# Halloween V2\ParcialHalloween\obj\Debug\ParcialHalloween.PanelAdmin.resources
+C:\Users\derli\Desktop\C# Halloween V2\ParcialHalloween\obj\Debug\ParcialHalloween.panel_admin.TablaPuntos.resources
+C:\Users\derli\Desktop\C# Halloween V2\ParcialHalloween\obj\Debug\ParcialHalloween.panel_participante.AgregarPuntuacion.resources
+C:\Users\derli\Desktop\C# Halloween V2\ParcialHalloween\obj\Debug\ParcialHalloween.panel_participante.ParadadeDulces.resources
+C:\Users\derli\Desktop\C# Halloween V2\ParcialHalloween\obj\Debug\ParcialHalloween.panel_participante.ParadasVista.resources
+C:\Users\derli\Desktop\C# Halloween V2\ParcialHalloween\obj\Debug\ParcialHalloween.panel_participante.TablaPuntuaciones.resources
+C:\Users\derli\Desktop\C# Halloween V2\ParcialHalloween\obj\Debug\ParcialHalloween.Properties.Resources.resources
+C:\Users\derli\Desktop\C# Halloween V2\ParcialHalloween\obj\Debug\ParcialHalloween.Registro.resources
+C:\Users\derli\Desktop\C# Halloween V2\ParcialHalloween\obj\Debug\ParcialHalloween.csproj.GenerateResource.cache
+C:\Users\derli\Desktop\C# Halloween V2\ParcialHalloween\obj\Debug\ParcialHalloween.csproj.CoreCompileInputs.cache
+C:\Users\derli\Desktop\C# Halloween V2\ParcialHalloween\obj\Debug\ParcialHalloween.exe
+C:\Users\derli\Desktop\C# Halloween V2\ParcialHalloween\obj\Debug\ParcialHalloween.pdb

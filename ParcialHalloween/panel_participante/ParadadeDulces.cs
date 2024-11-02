@@ -28,7 +28,7 @@ namespace ParcialHalloween.panel_participante
         private void CargarInformacionParada()
         {
             lblNombreParada.Text = parada.nombre;
-            lblDulcesDisp.Text = "Dulces disponibles: " + parada.cant_actual;
+            lblDulcesDisp.Text = "Tipo de dulce: " + parada.tipoDulces + "\n" + "Dulces disponibles: " + parada.cant_actual;
         }
 
         private void btnTomarDulce_Click(object sender, EventArgs e)

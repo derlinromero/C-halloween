@@ -64,10 +64,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.SuspendLayout();
             // 
-            // ofdFoto
-            // 
-            this.ofdFoto.FileName = "openFileDialog1";
-            // 
             // btnRegistrarse
             // 
             this.btnRegistrarse.Anchor = System.Windows.Forms.AnchorStyles.None;

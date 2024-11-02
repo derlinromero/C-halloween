@@ -19,6 +19,7 @@ namespace ParcialHalloween
         {
             InitializeComponent();
             db = new Db();
+            ofdFoto.Filter = "Imágenes (*.jpg;*.jpeg;*.png)|*.jpg;*.jpeg;*.png";
         }
         private void btnImagen_Click(object sender, EventArgs e)
         {

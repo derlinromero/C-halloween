@@ -299,46 +299,10 @@
     <None Include="Resources\desert.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\pump.png" />
+    <None Include="Resources\Spooky Scary Skeletons.wav" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\pumpk.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\shi.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ghost.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\asking.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ask.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ask1.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\trick.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\mcr-removebg-preview.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\skele.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\skel.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\skeeel.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\candy.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\ghost1.png" />
+    <None Include="Resources\Thriller Instrumental.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

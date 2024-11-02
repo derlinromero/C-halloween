@@ -39,10 +39,6 @@
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -50,10 +46,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.SuspendLayout();
             // 
             // label3
@@ -62,10 +54,9 @@
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Showcard Gothic", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(449, 70);
-            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label3.Location = new System.Drawing.Point(337, 57);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(651, 68);
+            this.label3.Size = new System.Drawing.Size(488, 55);
             this.label3.TabIndex = 11;
             this.label3.Text = "Panel Partipante";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -78,10 +69,9 @@
             this.btnParadas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnParadas.Font = new System.Drawing.Font("Old English Text MT", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnParadas.ForeColor = System.Drawing.Color.White;
-            this.btnParadas.Location = new System.Drawing.Point(529, 251);
-            this.btnParadas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnParadas.Location = new System.Drawing.Point(397, 204);
             this.btnParadas.Name = "btnParadas";
-            this.btnParadas.Size = new System.Drawing.Size(487, 117);
+            this.btnParadas.Size = new System.Drawing.Size(365, 95);
             this.btnParadas.TabIndex = 8;
             this.btnParadas.Text = "Ver Paradas de Dulces";
             this.btnParadas.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -96,10 +86,9 @@
             this.btnRanking.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnRanking.Font = new System.Drawing.Font("Old English Text MT", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnRanking.ForeColor = System.Drawing.Color.White;
-            this.btnRanking.Location = new System.Drawing.Point(529, 550);
-            this.btnRanking.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnRanking.Location = new System.Drawing.Point(397, 447);
             this.btnRanking.Name = "btnRanking";
-            this.btnRanking.Size = new System.Drawing.Size(487, 117);
+            this.btnRanking.Size = new System.Drawing.Size(365, 95);
             this.btnRanking.TabIndex = 12;
             this.btnRanking.Text = "Ver Raking de Puntuaciones";
             this.btnRanking.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -114,10 +103,9 @@
             this.btnVotar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnVotar.Font = new System.Drawing.Font("Old English Text MT", 25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnVotar.ForeColor = System.Drawing.Color.White;
-            this.btnVotar.Location = new System.Drawing.Point(529, 391);
-            this.btnVotar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnVotar.Location = new System.Drawing.Point(397, 318);
             this.btnVotar.Name = "btnVotar";
-            this.btnVotar.Size = new System.Drawing.Size(487, 117);
+            this.btnVotar.Size = new System.Drawing.Size(365, 95);
             this.btnVotar.TabIndex = 13;
             this.btnVotar.Text = "Calificar Disfraces";
             this.btnVotar.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
@@ -129,10 +117,10 @@
             this.pictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox1.BackColor = System.Drawing.Color.SlateGray;
             this.pictureBox1.Image = global::ParcialHalloween.Properties.Resources.spiderweb;
-            this.pictureBox1.Location = new System.Drawing.Point(531, 251);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox1.Location = new System.Drawing.Point(398, 204);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(115, 58);
+            this.pictureBox1.Size = new System.Drawing.Size(86, 47);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 14;
             this.pictureBox1.TabStop = false;
@@ -142,10 +130,10 @@
             this.pictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox2.BackColor = System.Drawing.Color.SlateGray;
             this.pictureBox2.Image = global::ParcialHalloween.Properties.Resources.spiderweb;
-            this.pictureBox2.Location = new System.Drawing.Point(529, 550);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox2.Location = new System.Drawing.Point(397, 447);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(81, 74);
+            this.pictureBox2.Size = new System.Drawing.Size(61, 60);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 15;
             this.pictureBox2.TabStop = false;
@@ -155,10 +143,10 @@
             this.pictureBox3.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox3.BackColor = System.Drawing.Color.SlateGray;
             this.pictureBox3.Image = global::ParcialHalloween.Properties.Resources.weeb;
-            this.pictureBox3.Location = new System.Drawing.Point(531, 391);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox3.Location = new System.Drawing.Point(398, 318);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(80, 65);
+            this.pictureBox3.Size = new System.Drawing.Size(60, 53);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 16;
             this.pictureBox3.TabStop = false;
@@ -168,10 +156,10 @@
             this.pictureBox4.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox4.BackColor = System.Drawing.Color.SlateGray;
             this.pictureBox4.Image = global::ParcialHalloween.Properties.Resources.murcielagos1;
-            this.pictureBox4.Location = new System.Drawing.Point(917, 251);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox4.Location = new System.Drawing.Point(688, 204);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(99, 62);
+            this.pictureBox4.Size = new System.Drawing.Size(74, 50);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 17;
             this.pictureBox4.TabStop = false;
@@ -181,10 +169,10 @@
             this.pictureBox5.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox5.BackColor = System.Drawing.Color.SlateGray;
             this.pictureBox5.Image = global::ParcialHalloween.Properties.Resources.murcielagos1;
-            this.pictureBox5.Location = new System.Drawing.Point(929, 550);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox5.Location = new System.Drawing.Point(697, 447);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(87, 74);
+            this.pictureBox5.Size = new System.Drawing.Size(65, 60);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox5.TabIndex = 18;
             this.pictureBox5.TabStop = false;
@@ -194,10 +182,10 @@
             this.pictureBox6.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.pictureBox6.BackColor = System.Drawing.Color.SlateGray;
             this.pictureBox6.Image = global::ParcialHalloween.Properties.Resources.tumbas__1_;
-            this.pictureBox6.Location = new System.Drawing.Point(917, 391);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
+            this.pictureBox6.Location = new System.Drawing.Point(688, 318);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(99, 76);
+            this.pictureBox6.Size = new System.Drawing.Size(74, 62);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox6.TabIndex = 19;
             this.pictureBox6.TabStop = false;
@@ -218,69 +206,22 @@
             this.groupBox1.Controls.Add(this.pictureBox1);
             this.groupBox1.Controls.Add(this.btnParadas);
             this.groupBox1.Controls.Add(this.btnRanking);
-            this.groupBox1.Controls.Add(this.pictureBox7);
-            this.groupBox1.Controls.Add(this.pictureBox8);
-            this.groupBox1.Controls.Add(this.pictureBox9);
-            this.groupBox1.Controls.Add(this.pictureBox10);
-            this.groupBox1.Location = new System.Drawing.Point(16, 15);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Location = new System.Drawing.Point(12, 12);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.groupBox1.Size = new System.Drawing.Size(1547, 833);
+            this.groupBox1.Size = new System.Drawing.Size(1160, 677);
             this.groupBox1.TabIndex = 20;
             this.groupBox1.TabStop = false;
             // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = global::ParcialHalloween.Properties.Resources.pumpk;
-            this.pictureBox7.Location = new System.Drawing.Point(255, 636);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(226, 211);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 21;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Image = global::ParcialHalloween.Properties.Resources.pump;
-            this.pictureBox8.Location = new System.Drawing.Point(-16, 471);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(341, 430);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox8.TabIndex = 20;
-            this.pictureBox8.TabStop = false;
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Image = global::ParcialHalloween.Properties.Resources.shi;
-            this.pictureBox9.Location = new System.Drawing.Point(1049, 611);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(247, 236);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox9.TabIndex = 22;
-            this.pictureBox9.TabStop = false;
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Image = global::ParcialHalloween.Properties.Resources.pump;
-            this.pictureBox10.Location = new System.Drawing.Point(1224, 450);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(354, 439);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox10.TabIndex = 23;
-            this.pictureBox10.TabStop = false;
-            // 
             // PanelParti
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.BackgroundImage = global::ParcialHalloween.Properties.Resources.halloween;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(1579, 863);
+            this.ClientSize = new System.Drawing.Size(1184, 701);
             this.Controls.Add(this.groupBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.MinimumSize = new System.Drawing.Size(1594, 900);
+            this.MinimumSize = new System.Drawing.Size(1200, 740);
             this.Name = "PanelParti";
             this.Text = "PanelParti";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -291,10 +232,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.groupBox1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -312,9 +249,5 @@
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.PictureBox pictureBox10;
     }
 }

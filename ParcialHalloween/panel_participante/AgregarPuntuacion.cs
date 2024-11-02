@@ -90,6 +90,7 @@ namespace ParcialHalloween.panel_participante
                 if (resultado)
                 {
                     MessageBox.Show("Puntuación guardada con éxito.", "Éxito");
+                    this.Close();
                 }
                 else
                 {

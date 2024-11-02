@@ -24,7 +24,7 @@ namespace ParcialHalloween.panel_admin.gestion_paradas
         private void btnAgregar_Click(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(txtNombre.Text) || string.IsNullOrWhiteSpace(txtCantidadIni.Text) ||
-                string.IsNullOrWhiteSpace(txtTipoDulces.Text) || Convert.ToInt32(txtCantidadIni) <= 0)
+                string.IsNullOrWhiteSpace(txtTipoDulces.Text) || Convert.ToInt32(txtCantidadIni.Text) <= 0)
             {
                 MessageBox.Show("Por favor, no deje ningún campo vacío y llene con información válida.", "Error");
                 return;

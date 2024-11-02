@@ -28,6 +28,7 @@ namespace ParcialHalloween
             txtDisfraz.Text = participanteSelec.disfraz;
             txtContra.Text = participanteSelec.contraseña;
             pcbFoto.Image = Image.FromFile(participanteSelec.foto);
+            ofdFoto.Filter = "Imágenes (*.jpg;*.jpeg;*.png)|*.jpg;*.jpeg;*.png";
         }
 
         private void btnImagen_Click(object sender, EventArgs e)

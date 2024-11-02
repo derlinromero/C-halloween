@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Media;
 using ParcialHalloween.Datos;
 using ParcialHalloween.Entities;
 
@@ -14,15 +15,21 @@ namespace ParcialHalloween
 {
     public partial class Login : Form
     {
+        private SoundPlayer soundPlayer;
+
         public Login()
         {
             InitializeComponent();
             LimpiarCampos();
+
+            soundPlayer = new SoundPlayer(Properties.Resources.Thriller_Instrumental);
         }
         
         private void Login_Load(object sender, EventArgs e)
         {
             LimpiarCampos();
+
+            soundPlayer.PlayLooping();
         }
 
         private void btnIniSesion_Click(object sender, EventArgs e)
@@ -65,7 +72,7 @@ namespace ParcialHalloween
             if (usuarioEncontrado.rol == "Administrador") {
                 PanelAdmin panelAdmin = new PanelAdmin();
                 panelAdmin.FormClosed += PanelAdmin_FormClosed;
-                panelAdmin.Show();
+                panelAdmin.ShowDialog();
             }
 
             if (usuarioEncontrado.rol == "Participante") {

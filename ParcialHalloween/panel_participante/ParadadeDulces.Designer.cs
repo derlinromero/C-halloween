@@ -43,7 +43,7 @@
             this.btnTomarDulce.FlatAppearance.BorderSize = 0;
             this.btnTomarDulce.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnTomarDulce.Font = new System.Drawing.Font("Old English Text MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnTomarDulce.Location = new System.Drawing.Point(50, 285);
+            this.btnTomarDulce.Location = new System.Drawing.Point(50, 353);
             this.btnTomarDulce.Name = "btnTomarDulce";
             this.btnTomarDulce.Size = new System.Drawing.Size(148, 55);
             this.btnTomarDulce.TabIndex = 1;
@@ -54,9 +54,9 @@
             // lblDulcesDisp
             // 
             this.lblDulcesDisp.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDulcesDisp.Location = new System.Drawing.Point(119, 161);
+            this.lblDulcesDisp.Location = new System.Drawing.Point(56, 161);
             this.lblDulcesDisp.Name = "lblDulcesDisp";
-            this.lblDulcesDisp.Size = new System.Drawing.Size(168, 49);
+            this.lblDulcesDisp.Size = new System.Drawing.Size(296, 123);
             this.lblDulcesDisp.TabIndex = 3;
             this.lblDulcesDisp.Text = "label1";
             this.lblDulcesDisp.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -64,7 +64,7 @@
             // txtDulcesTomar
             // 
             this.txtDulcesTomar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtDulcesTomar.Location = new System.Drawing.Point(125, 239);
+            this.txtDulcesTomar.Location = new System.Drawing.Point(125, 307);
             this.txtDulcesTomar.Maximum = new decimal(new int[] {
             100000000,
             0,
@@ -80,7 +80,7 @@
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Showcard Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label1.Location = new System.Drawing.Point(132, 216);
+            this.label1.Location = new System.Drawing.Point(132, 284);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(142, 20);
             this.label1.TabIndex = 5;
@@ -92,7 +92,7 @@
             this.btnCancelar.FlatAppearance.BorderSize = 0;
             this.btnCancelar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnCancelar.Font = new System.Drawing.Font("Old English Text MT", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCancelar.Location = new System.Drawing.Point(204, 285);
+            this.btnCancelar.Location = new System.Drawing.Point(204, 353);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(148, 55);
             this.btnCancelar.TabIndex = 16;
@@ -118,7 +118,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::ParcialHalloween.Properties.Resources.actividad;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(416, 377);
+            this.ClientSize = new System.Drawing.Size(416, 464);
             this.Controls.Add(this.lblNombreParada);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.label1);
